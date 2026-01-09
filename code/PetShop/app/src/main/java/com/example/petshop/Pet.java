@@ -3,8 +3,8 @@ package com.example.petshop;
 import java.util.Date;
 
 public abstract class Pet {
-    String name;
-    Date birthDate;
+    private String name;
+    private Date birthDate;
 
     public Pet(String name) {
         this.name = name;
@@ -34,5 +34,4 @@ public abstract class Pet {
 
     public abstract String speak();
 }
-
 

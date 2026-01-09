@@ -28,10 +28,14 @@ public class MainActivity extends AppCompatActivity {
         Dog dog = new Dog("Snoopy");
         Scorpion scorpion = new Scorpion("Scorponok");
 
+        ArrayList<Pet> petsList = new ArrayList<>();
+        petsList.add(cat);
+        petsList.add(dog);
+        petsList.add(scorpion);
 
-        ArrayList<Pettable> petList = new ArrayList<>();
-        petList.add(cat);
-        petList.add(dog);
-        // petList.add(scorpion);
+        ArrayList<Pettable> pettableList = new ArrayList<>();
+        pettableList.add(cat);
+        pettableList.add(dog);
+        // pettableList.add(scorpion);
     }
 }
